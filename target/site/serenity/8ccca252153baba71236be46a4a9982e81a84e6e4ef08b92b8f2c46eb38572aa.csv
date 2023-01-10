@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Stores tag test","Provide a 405 status code when incorrect HTTP method is used to access resource","FAILURE","2023-01-10T22:45:36.370Z[Europe/London]","0.0","0.04"
+"Stores tag test","This test will verify if a status code of 200 is returned for GET request","SUCCESS","2023-01-10T22:45:36.414Z[Europe/London]","0.0","0.12"
+"Stores tag test","This test will provide an error code of 400 when user tries to access an invalid resource","FAILURE","2023-01-10T22:45:36.535Z[Europe/London]","0.0","0.06"

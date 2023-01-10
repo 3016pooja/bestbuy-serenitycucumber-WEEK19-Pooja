@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="com.bestbuy.crudtests.StoresTagTest" skipped="0" tests="3" time="0.22" timestamp="2023-01-10T22:45:36.370Z[Europe/London]"><testcase classname="com.bestbuy.crudtests.StoresTagTest" name="Provide a 405 status code when incorrect HTTP method is used to access resource"><failure message="1 expectation failed.&#10;Expected status code &lt;405&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;405&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;405&gt; but was &lt;500&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.crudtests.StoresTagTest.invalidMethod(StoresTagTest.java:23)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.crudtests.StoresTagTest" name="This test will verify if a status code of 200 is returned for GET request"/><testcase classname="com.bestbuy.crudtests.StoresTagTest" name="This test will provide an error code of 400 when user tries to access an invalid resource"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.crudtests.StoresTagTest.inCorrectResource(StoresTagTest.java:55)&#13;
+</system-err></testcase></testsuite>
